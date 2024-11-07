@@ -1,0 +1,64 @@
+/* Product Card Styling */
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensures no content spills out */
+    width: 250px; /* Fixed width */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image is properly cropped and fits the space */
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px 0 10px;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c; /* Highlighted price color */
+    margin-bottom: 20px;
+  }
+  
+  .product-card button {
+    padding: 10px 20px;
+    background-color: #ff7e5f; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .product-card button:hover {
+    background-color: #feb47b; /* Button hover effect */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+  }
+  

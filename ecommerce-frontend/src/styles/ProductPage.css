@@ -1,0 +1,153 @@
+/* Product Page Container */
+.product-page {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Page Heading */
+  .product-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Cart Operation Messages */
+  .product-page p {
+    color: #0072ff;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Product List Container */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Product Card */
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 180px; /* Smaller width to fit content */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Product Image Container */
+  .product-card .product-image-container {
+    width: 100%;
+    height: 120px; /* Smaller height */
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Space between image and details */
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Product Name */
+  .product-card h3 {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Product Description */
+  .product-card p {
+    color: #555;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  /* Product Price */
+  .product-card p:last-of-type {
+    font-weight: bold;
+    color: #0072ff;
+    font-size: 1em;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart-btn {
+    margin-top: auto; /* Pushes the button to the bottom */
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  /* View Cart Button */
+  .view-cart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-cart-btn:hover {
+    background-color: #e06b51;
+  }
+  
+
+  /* Styles for the filter dropdown and input */
+.filter-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-dropdown, .min-price-input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.filter-dropdown:hover, .min-price-input:hover {
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.filter-dropdown:focus, .min-price-input:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.min-price-input {
+  max-width: 150px;
+}

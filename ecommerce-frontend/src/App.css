@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 15px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .logo h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  list-style: none;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links li {
+  margin-right: 20px;
 }
+
+.nav-links li a,
+.nav-links li button {
+  color: white;
+  font-size: 18px;
+}
+
+.nav-links li button {
+  background-color: #f44336;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Home Page */
+.home .hero {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cta-btn {
+  background-color: #2196f3;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Product Page */
+.product-page {
+  padding: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.view-details-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Profile & Cart Pages */
+.profile, .cart {
+  padding: 20px;
+}
+
+/* Navbar Styling */
+nav {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient pink background */
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar logo */
+.logo h2 {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient pink text */
+  -webkit-background-clip: text; /* Ensures the gradient only applies to the text */
+  color: transparent; /* Hides the text color to show the gradient */
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navbar list styling */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar list item */
+li {
+  margin: 0 15px;
+}
+
+/* Navbar links */
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on navbar links */
+a:hover {
+  color: #0072ff;
+}
+

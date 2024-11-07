@@ -1,0 +1,36 @@
+/* Navbar Styling */
+nav {
+    background: linear-gradient(to right, #ff5fdc, #30b640); /* Gradient pink background */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar list styling */
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar list item */
+  li {
+    margin: 0 15px;
+  }
+  
+  /* Navbar links */
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect on navbar links */
+  a:hover {
+    color: #0072ff; /* You can choose any other color for hover effect */
+  }
+  

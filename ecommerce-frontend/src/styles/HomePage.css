@@ -1,0 +1,83 @@
+/* HomePage Styling */
+.home {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background-image: url('../new1.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Center the image within the hero section */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    height: 100vh; /* Make the hero section full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7e5f; /* Gradient or solid color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #feb47b; /* Hover effect */
+  }
+  
+  /* Optional Styling for the Product Section */
+  .product-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .product-item p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  

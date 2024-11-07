@@ -82,8 +82,8 @@ WSGI_APPLICATION = "ecommerceproject.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.project2db",
-        "NAME": "project2",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "project2db",
         "USER":"root",
         "PASSWORD":"arpit",
         "HOST":"localhost",

@@ -19,7 +19,7 @@ Approach : 1: Building  Backend
 
 On Jira we used Scrum for agile project management methodology. Raised 2 epics and 2 sprints for team members dividing sub-parts of backends and making frontend.
 
-# The tools and frameworks we have used are : Django, Rest Framework,  MySql, React, Css.
+# The tools and frameworks we have used are : Django, Rest Framework,  MySql, React, Postman, Css
 
 
 ![Screenshot 2024-11-08 095347](https://github.com/user-attachments/assets/fda2b9ab-398b-4f91-a943-eaa78ee01952)

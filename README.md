@@ -33,6 +33,51 @@ Now for the Backend the ER Diagram is as followed :
 
 ![ermmmm](https://github.com/user-attachments/assets/d8ad9aed-0cbb-4d1e-af1b-c39c1acd8c76)
 
+Skeleton of our Project:
+
+We started our :Django project -> Django_app >
+
+1- Settings.py : for configuration of our app.
+
+Dabatbase: Configured Mysql
+
+Connection with front-end: cross origin resource sharing (cors-headers)
+
+Throtelling: For security, Controlling Rate of requests ( Limit the number of times a user can access our endpoints)
+
+Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagger, Cors__headers, Ecommerce app
+
+
+2- Models.py : Creating a models.py file involves defining classes that represent our database tables.
+
+3- Admins.py : By registering these models, make them accessible and manageable through django admin interface.
+
+5- Serializer.py: Converts our data into json.
+
+6- Views.py: 
+
+ A: It is used for handling the requests and returning responses.
+
+
+ B: Querset will fetch all the records from any model.
+ 
+
+ C: Using ModelSerializer to convert model objects to json and vice-versa
+
+
+ D:BasicAuthentication → user must provide a username and password
+
+
+ E: IsAuthenticateed → restric access to authenticated users.
+
+7- urls.py : Creating Rest-Api points that maps specific URL paths to Views.py.
+
+
+
+ 
+
+
+
 
 
 

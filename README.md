@@ -13,6 +13,6 @@ On Jira we used Scrum for agile project management methodology. Raised 3 epics f
 
            
 
-  ![Screenshot 2024-11-08 093238](https://github.com/user-attachments/assets/27730ca9-d55d-413d-b208-b0c0d1fb969c)
+
 
 

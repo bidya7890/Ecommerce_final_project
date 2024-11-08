@@ -33,7 +33,7 @@ On Jira we used Scrum for agile project management methodology. Raised 2 epics a
 
 ![ermmmm](https://github.com/user-attachments/assets/d8ad9aed-0cbb-4d1e-af1b-c39c1acd8c76)
 
-# Skeleton of our Project:
+# Skeleton of our Project: (Uploading to the Github)
 
 # We started our : Django project -> Django_app >
 

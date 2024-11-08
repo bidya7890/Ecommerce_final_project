@@ -1,4 +1,4 @@
-#ECOMMERCE ANIME MART 
+# ECOMMERCE ANIME MART 
 
 We have built an Ecommerce Webite : Anime Mart .
 
@@ -6,11 +6,11 @@ By: Bidyashree Aditya, Arpit Sharma, Pankil kamboj, Sakshi Kumari
 
 Approach : 1: Building  Backend 
 
-Project Management : Discussion and Dividing the Task 
+# Project Management : Discussion and Dividing the Task 
 
 On Jira we used Scrum for agile project management methodology. Raised 2 epics and 2 sprints for team members dividing sub-parts of backends and making frontend.
 
-The tools and frameworks we have used are : Django, Rest Framework,  MySql, React, Css.
+# The tools and frameworks we have used are : Django, Rest Framework,  MySql, React, Css.
 
 
 ![Screenshot 2024-11-08 095347](https://github.com/user-attachments/assets/fda2b9ab-398b-4f91-a943-eaa78ee01952)
@@ -24,7 +24,7 @@ The tools and frameworks we have used are : Django, Rest Framework,  MySql, Reac
 
 
 
-Now for the Backend the ER Diagram is as followed : 
+# Now for the Backend the ER Diagram is as followed : 
 
 1: Ecommerceapp_product 
 2: Ecommerceapp_cart    
@@ -33,11 +33,12 @@ Now for the Backend the ER Diagram is as followed :
 
 ![ermmmm](https://github.com/user-attachments/assets/d8ad9aed-0cbb-4d1e-af1b-c39c1acd8c76)
 
-Skeleton of our Project:
+# Skeleton of our Project:
 
-We started our :Django project -> Django_app >
+# We started our : Django project -> Django_app >
 
-1- Settings.py : for configuration of our app.
+
+# 1- Settings.py : for configuration of our app.
 
 Dabatbase: Configured Mysql
 
@@ -48,13 +49,13 @@ Throtelling: For security, Controlling Rate of requests ( Limit the number of ti
 Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagger, Cors__headers, Ecommerce app
 
 
-2- Models.py : Creating a models.py file involves defining classes that represent our database tables.
+# 2- Models.py : Creating a models.py file involves defining classes that represent our database tables.
 
-3- Admins.py : By registering these models, make them accessible and manageable through django admin interface.
+# 3- Admins.py : By registering these models, make them accessible and manageable through django admin interface.
 
-5- Serializer.py: Converts our data into json.
+# 5- Serializer.py: Converts our data into json.
 
-6- Views.py: 
+# 6- Views.py: 
 
  A: It is used for handling the requests and returning responses.
 
@@ -70,7 +71,9 @@ Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagg
 
  E: IsAuthenticateed → restric access to authenticated users.
 
-7- urls.py : Creating Rest-Api points that maps specific URL paths to Views.py.
+# - urls.py : Creating Rest-Api points that maps specific URL paths to Views.py.
+
+
 
 
 

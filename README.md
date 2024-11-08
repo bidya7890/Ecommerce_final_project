@@ -90,7 +90,9 @@ Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagg
 1: Throtelling (security).
 
 2: Filter - LOW TO HIGH PRICE
-          - Specific price 
+          - SPECIFIC PRICE 
+
+3: Authentication ( default authentication of django for users )          
 
 
 

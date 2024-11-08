@@ -80,7 +80,18 @@ Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagg
 
  E: IsAuthenticateed → restric access to authenticated users.
 
-# 7- urls.py : Creating Rest-Api points that maps specific URL paths to Views.py.
+# 7- urls.py : Creating Rest-Api points that maps specific URL paths to Views.py and Swagger for API documentation.
+
+
+
+
+# FEATURES IN OUR APPLICATION :
+
+1: Throtelling (security).
+
+2: Filter - LOW TO HIGH PRICE
+          - Specific price 
+
 
 
 

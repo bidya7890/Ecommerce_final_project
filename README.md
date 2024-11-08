@@ -25,7 +25,7 @@ On Jira we used Scrum for agile project management methodology. Raised 2 epics a
 ![Screenshot 2024-11-08 095347](https://github.com/user-attachments/assets/fda2b9ab-398b-4f91-a943-eaa78ee01952)
 
 
-![Screenshot 2024-11-08 095623](https://github.com/user-attachments/assets/15f23c4f-2330-4dbe-8628-2b17a1584492)
+
 
 ![Screenshot 2024-11-08 101501](https://github.com/user-attachments/assets/22b10ffe-0c1c-4d2a-9c90-23b57051f7de)
 

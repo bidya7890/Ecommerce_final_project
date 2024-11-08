@@ -2,6 +2,14 @@
 
 We have built an Ecommerce Webite : Anime Mart .
 
+![c878ef72-265f-484a-ace6-895ee68b4889](https://github.com/user-attachments/assets/555e5c38-7026-45dd-95f8-613a724e4393)
+
+
+![27577d7c-02c3-4485-bc1d-7b5e7feea2ea](https://github.com/user-attachments/assets/6ed7fc7a-0451-4e0a-99cd-60e64a624659)
+
+
+
+
 By: Bidyashree Aditya, Arpit Sharma, Pankil kamboj, Sakshi Kumari
 
 Approach : 1: Building  Backend 
@@ -72,6 +80,8 @@ Installed Apps: The apps we will be using in our project : Rest_FRAMEWORK, Swagg
  E: IsAuthenticateed → restric access to authenticated users.
 
 # 7- urls.py : Creating Rest-Api points that maps specific URL paths to Views.py.
+
+
 
 
 

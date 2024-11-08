@@ -1,4 +1,4 @@
-# ECOMMERCE ANIME MART 
+# E-COMMERCE ANIME MART 
 
 We have built an Ecommerce Webite : Anime Mart .
 

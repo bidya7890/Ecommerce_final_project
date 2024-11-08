@@ -2,7 +2,8 @@
 
 We have built an Ecommerce Webite : Anime Mart .
 
-![c878ef72-265f-484a-ace6-895ee68b4889](https://github.com/user-attachments/assets/555e5c38-7026-45dd-95f8-613a724e4393)
+![dc2c1311-df8d-47ed-a2d6-3db1deed681d](https://github.com/user-attachments/assets/e44e03eb-3e07-4fed-952b-49e188867179)
+
 
 
 ![27577d7c-02c3-4485-bc1d-7b5e7feea2ea](https://github.com/user-attachments/assets/6ed7fc7a-0451-4e0a-99cd-60e64a624659)
